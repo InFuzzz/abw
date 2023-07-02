@@ -1,0 +1,19 @@
+{
+  "name": "abw",
+  "version": "1.0.0",
+  "description": "ABW is a foundation aimed at fighting malicious bots and self-bots on Discord so that users can browse the app without risk.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ABW",
+    "Protection",
+    "Discord"
+  ],
+  "author": "InFuzz",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
