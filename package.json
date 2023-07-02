@@ -6,13 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "keywords": [
     "ABW",
     "Protection",
     "Discord"
   ],
   "author": "InFuzz",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "dependencies": {
     "axios": "^1.4.0"
   }
