@@ -12,11 +12,11 @@ async function check(id, token) {
       }
     });
 
-    if (!response.data.isValid) {
+    if (!response.data.isUnsafe) {
       throw new Error("Invalid API response");
     }
 
-    return response.data.isValid;
+    return response.data.isUnsafe;
   } catch (error) {
     ErrorsManager.handle(error);
   }
