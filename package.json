@@ -12,7 +12,7 @@
     "Discord"
   ],
   "author": "InFuzz",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "dependencies": {
     "axios": "^1.4.0"
   }
