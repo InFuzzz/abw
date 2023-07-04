@@ -1,6 +1,6 @@
 {
   "name": "abw.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ABW is a foundation aimed at fighting malicious bots and self-bots on Discord so that users can browse the app without risk.",
   "main": "index.js",
   "scripts": {
