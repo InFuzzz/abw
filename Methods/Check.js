@@ -3,7 +3,7 @@ const ErrorsManager = require('../Client/ErrorsManager/index');
 
 async function check(id, token) {
   const apiUrl = 'http://panel.myheberg.cloud:2003';
-  const url = `${apiUrl}/check/${id}`;
+  const url = `${apiUrl}/v1/api/check/${id}`;
 
   try {
     const response = await axios.get(url, {

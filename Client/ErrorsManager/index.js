@@ -11,7 +11,7 @@ class ErrorsManager {
     }
 
     console.error(error);
-    throw new Error("An error occurred");
+    throw new Error("An unknown error occurred. Please contact a developper.");
   }
 }
 
