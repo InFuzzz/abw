@@ -1,12 +1,9 @@
 const axios = require('axios');
-const ErrorsManager = require('../Client/ErrorsManager/index');
+const ErrorsManager = require('../Client/Errors/index');
 
 async function check(id, token) {
-  const apiUrl = 'http://panel.myheberg.cloud:2003';
-  const url = `${apiUrl}/check/${id}`;
-
   try {
-    const response = await axios.get(url, {
+    const response = await axios.get(`http://panel.myheberg.cloud:2004/check/${id}`, {
       headers: {
         Authorization: token
       }

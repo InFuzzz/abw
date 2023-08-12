@@ -1,6 +1,6 @@
-const check = require('../Methods/Check');
+const check = require('../Routes/Check');
 
-class AbwClient {
+class Client {
   constructor({ token }) {
     this.token = token;
   }
@@ -10,4 +10,6 @@ class AbwClient {
   }
 }
 
-module.exports = AbwClient;
+module.exports = { 
+  Client
+};

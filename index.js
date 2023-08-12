@@ -1,3 +1,6 @@
-const AbwClient = require('./Client/Client');
+const { Client, Check } = require('./Client/Client');
 
-module.exports = AbwClient;
+module.exports = { 
+  Client, 
+  Check
+};
